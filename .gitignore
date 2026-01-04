@@ -1,0 +1,20 @@
+# Virtual environments
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset (not uploaded)
+images/
+
+# Demo / training artifacts
+artifacts/*.npy
+artifacts/*.h5
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/

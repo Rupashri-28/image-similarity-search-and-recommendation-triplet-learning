@@ -1,0 +1,17 @@
+# Core Python ML stack
+numpy==1.26.4
+scipy==1.11.4
+
+# Deep Learning
+tensorflow==2.15.0
+keras==2.15.0
+
+# Image processing
+Pillow==10.2.0
+opencv-python==4.9.0.80
+
+# Data handling & utilities
+tqdm==4.66.1
+
+# Similarity search & metrics
+scikit-learn==1.4.0
