@@ -32,7 +32,6 @@ be demonstrated **without retraining**.
 
 ### How to Run the Demo
 
-```bash
 pip install -r requirements.txt
 python app.py
 
@@ -111,6 +110,10 @@ Recall@K Definition:
 A query is counted as correct if at least one image of the same product
 appears in the Top-K retrieved results.
 
+These results indicate that the learned embeddings successfully cluster visually similar products, with retrieval quality improving as K increases.
+
+Note: Recall@K values are dataset-dependent and can be further improved with longer training, hard-negative mining, and larger batch sizes.
+
 ### Validation Strategy
 
 Due to limited labeled data, explicit validation splits were not used.
@@ -158,3 +161,9 @@ ResNet50
 NumPy
 scikit-learn
 Streamlit
+
+### Conclusion
+
+This project demonstrates an end-to-end AI-powered image similarity search system using Triplet Networks and deep metric learning.
+
+By learning meaningful visual embeddings directly from images, the system enables accurate similarity-based retrieval without relying on manual labels or text metadata - making it suitable for real-world applications such as e-commerce visual search and recommendation systems.
